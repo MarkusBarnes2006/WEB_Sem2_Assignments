@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=123, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myForm" onsubmit="return validateForm()" method="post"> 
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname"><br>
+
+        <label for="mname">Middle Name:</label>
+        <input type="text" name="mname" id="mname"><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname"><br>
+        
+        <p>What Grade Are You In: </p>
+        <input type="radio" id="9th" name="gradelvl" value="9th">
+        <label for="9th">9th</label><br>
+        <input type="radio" id="10th" name="gradelvl" value="10">
+        <label for="10th">10th</label><br>
+        <input type="radio" id="11th" name="gradelvl" value="11th">
+        <label for="11th">11th</label><br>
+        <input type="radio" id="12th" name="gradelvl" value="12th">
+        <label for="12th">12th</label><br>
+
+        <input type="checkbox" id="extra1" name="extra1" value="Cosmotology"> 
+        <label for="extra1"> I'm in Cosmotology</label>
+        <input type="checkbox" id="extra2" name="extra2" value="Nursing">
+        <label for="extra2"> I'm in Nursing</label>
+        <input type="checkbox" id="extra3" name="extra3" value="Computer Science"> 
+        <label for="extra3"> I'm in Computer Science</label>
+        <input type="checkbox" id="extra4" name="extra4" value="Other">
+        <label for="extra4"> Other</label>
+
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
