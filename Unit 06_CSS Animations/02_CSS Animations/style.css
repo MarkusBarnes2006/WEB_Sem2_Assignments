@@ -1,0 +1,15 @@
+div{
+    width: 500px;
+    height: 50px;
+    background-color: burlywood;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    
+
+}
+@keyframes myAnimation{
+    50% {background-color: black; margin-top: 400px;}
+    100% {background-color: burlywood; top: 0px;}
+
+}
