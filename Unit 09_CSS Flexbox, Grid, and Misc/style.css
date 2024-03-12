@@ -1,0 +1,10 @@
+.flexin{
+    display: flex;
+    background-color: brown;
+}
+.flexin > div{
+    background-color: aqua;
+    margin: 20px;
+    padding: 10%;
+    font-size: larger;
+}
