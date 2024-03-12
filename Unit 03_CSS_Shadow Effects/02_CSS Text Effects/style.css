@@ -1,0 +1,12 @@
+div{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 300px;
+    height: max-content;
+    border: 2px ridge purple;
+
+}
+div:hover{
+    overflow: visible;
+}
